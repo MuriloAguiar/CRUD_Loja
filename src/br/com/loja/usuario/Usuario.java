@@ -3,9 +3,9 @@ package br.com.loja.usuario;
 public abstract class Usuario {
 
 	protected String nome;
-	protected int cpf;
+	protected String cpf;
 	
-	public Usuario(String nome,int cpf) {
+	public Usuario(String nome,String cpf) {
 		this.nome = nome;
 		this.cpf = cpf;
 	}
