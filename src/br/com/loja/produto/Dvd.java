@@ -10,8 +10,6 @@ public class Dvd {
 	public Dvd(String titulo, String duracao, String categoria, float preco) {
 		
 		this.titulo=titulo;
-
-	
 	}
 
 }
